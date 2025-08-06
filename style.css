@@ -1,0 +1,28 @@
+/* header/navbar Starts from here */
+.header {
+    height: 84px;
+    background-color: #F5F7FA;
+}
+
+.lime-green-color {
+    color: #4CAF4F;
+}
+
+.lime-green-bg-color {
+    background-color: #4CAF4F;
+}
+
+
+/* hero1 Starts from here */
+
+.hero1 {
+    background-color: #F5F7FA;
+}
+
+.hero1-div1 h1 {
+    font-size: 6rem;
+}
+
+.hero1-div2 button {
+    padding: 3rem;
+}
