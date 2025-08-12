@@ -7,21 +7,22 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!-- header/navbar Starts from here -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary header grey-bg-color px-5 fs-4">
-    <div class="container-fluid justify-content-between px-5">
+  <nav class="header navbar navbar-expand-lg bg-body-tertiary grey-bg-color px-3 px-md-5 px-lg-5 fs-4">
+    <div
+      class="w-100 d-flex justify-content-between justify-content-lg-evenly align-items-center px-0 mx-0 px-md-5 grey-bg-color">
       <a class="navbar-brand" href="#"><img src="assets/Logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="d-sm-none d-md-flex" id="navbarNav">
-        <ul class="navbar-nav gap-5">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-5 grey-bg-color">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -42,7 +43,7 @@
           </li>
         </ul>
       </div>
-      <div class="d-sm-none d-md-flex">
+      <div class="d-none  d-lg-flex">
         <button type="button" class="btn btn-light fs-4 lime-text">Login</button>
         <button type="button" class="btn fs-4 lime-green-bg-color text-white">Sign up</button>
       </div>
@@ -56,23 +57,28 @@
   <main>
     <!-- hero1 Starts from here -->
     <section class="grey-bg-color pt-5">
-      <div class="hero1 d-flex justify-content-center align-items-center px-5 py-5 my-5">
-        <div class="hero1-div1 ps-5 pe-5 me-5">
-          <h1 class="me-1 heading-fs grey-heading big-heading-fs">Lessons and insights</h1>
-          <h1 class="big-heading-fs lime-text">from 8 years</h1>
-          <p class="light-grey-text fs-4 mb-4 pb-2">Where to grow your bussiness as a photographer: site or social
+      <div
+        class="hero1 d-flex justify-content-center align-items-center px-md-5 px-lg-5 py-md-5 py-lg-5 my-md-5 my-lg-5">
+        <div class="hero1-div1 ps-md-5 ps-lg-5 ps-3 pe-md-5 pe-lg-5 me-md-5 me-lg-5">
+          <h1 class="grey-heading flex-shrink-1 big-heading-fs small-screen-big-heading-fs mb-0">Lessons and insights
+          </h1>
+          <h1 class="big-heading-fs small-screen-big-heading-fs lime-text">from 8 years</h1>
+          <p class="light-grey-text mb-md-4 mb-lg-4 pb-md-2 pb-lg-2">Where to grow your bussiness as a photographer:
+            site or social
             media?
           </p>
-          <button type="button" class="btn lime-green-bg-color text-white fs-4 py-3 px-5">Register</button>
+          <button type="button"
+            class="btn lime-green-bg-color text-white fs-4 py-2 py-md-3 py-lg-3 px-4 px-md-5 px-lg-5 mb-5 mb-md-0 mb-lg-0">Register</button>
         </div>
-        <div class="hero1-div2 ms-5">
+        <div class="hero1-div2 ms-5 d-none d-sm-none d-md-none d-lg-inline-block">
           <img src="assets/Illustration.png">
         </div>
       </div>
 
+      <!-- hero1 bottom green circles -->
       <div>
         <div class="hero1-div3 d-flex justify-content-center pt-5 pb-4">
-          <div class="d-flex gap-3">
+          <div class="d-flex gap-2 gap-md-3 gap-md-3">
             <div class="lime-green-bg-color"></div>
             <div class="bg-success-subtle"></div>
             <div class="bg-success-subtle"></div>
@@ -84,12 +90,12 @@
 
 
     <!-- hero2 Starts from here -->
-    <section class="p-5 mx-5">
+    <section class="px-2 px-md-5 px-lg-5 py-5 mx-md-5 mx-lg-5">
       <div class="text-center">
-        <p class=" fw-bold heading-fs grey-heading">Our Clients</p>
-        <p class="fs-5 light-grey-text">We have been working with forturn 500+ clients</p>
+        <p class="fw-bold heading-fs small-screen-heading-fs grey-heading">Our Clients</p>
+        <p class="light-grey-text px-2">We have been working with forturn 500+ clients</p>
       </div>
-      <div class="hero2-div2 d-flex justify-content-between align-items-center p-5 mx-5">
+      <div class="hero2-div2 d-flex justify-content-between align-items-center p-md-5 p-lg-5 mx-md-5 mx-lg-5">
         <a href="#"><img src="assets/Logo (1).png"></a>
         <a href="#"><img src="assets/Logo (2).png"></a>
         <a href="#"><img src="assets/Logo (3).png"></a>
@@ -104,18 +110,19 @@
 
     <!-- hero3 Starts from here -->
     <section>
-      <div class="text-center">
-        <h2 class=" fw-bold mb-0 heading-fs grey-heading">Manage your entire commnity</h2>
-        <h2 class=" fw-bold heading-fs grey-heading">in a single system</h2>
+      <div class="text-center px-4">
+        <h2 class=" fw-bold mb-0 heading-fs small-screen-heading-fs grey-heading">Manage your entire commnity</h2>
+        <h2 class=" fw-bold heading-fs small-screen-heading-fs grey-heading">in a single system</h2>
         <p class="fs-5 light-grey-text">Who is Nextcent suitable for?</p>
       </div>
 
-      <div class="d-flex justify-content-evenly">
-        <div class="card text-center pt-5 pb-2 border-0 shadow-sm" style="width: 24rem; height: 24rem;">
+      <div
+        class="hero3-cards-main-div d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-md-evenly justify-content-lg-evenly gap-5 pt-3">
+        <div class="card text-center pt-5 pb-2 border-0 shadow-sm">
           <img src="assets/Icon.png" class="card-img-top w-25 mx-auto">
           <div class="card-body justify-content-evenly">
-            <h5 class="card-title fw-bold fs-2 mt-2 heading-fs grey-heading">Membership</h5>
-            <h5 class="card-title fw-bold fs-2 heading-fs grey-heading">Organisation</h5>
+            <h5 class="card-title fw-bold fs-2 mt-2 heading-fs small-screen-heading-fs grey-heading">Membership</h5>
+            <h5 class="card-title fw-bold fs-2 heading-fs small-screen-heading-fs grey-heading">Organisation</h5>
             <p class="card-text light-grey-text mt-4">Some quick example text to build on the card title and make up the
               bulk of the card’s
               content. title and make up the bulk of the card’s
@@ -123,7 +130,7 @@
           </div>
         </div>
 
-        <div class="card text-center pt-5 pb-2 border-0 shadow-sm" style="width: 24rem; height: 24rem;">
+        <div class="card text-center pt-5 pb-2 border-0 shadow-sm">
           <img src="assets/Icon (1).png" class="card-img-top w-25 mx-auto">
           <div class="card-body justify-content-evenly">
             <h5 class="card-title fw-bold fs-2 mt-2 heading-fs grey-heading">National</h5>
@@ -135,7 +142,7 @@
           </div>
         </div>
 
-        <div class="card text-center pt-5 pb-2 border-0 shadow-sm" style="width: 24rem; height: 24rem;">
+        <div class="card text-center pt-5 pb-2 border-0 shadow-sm">
           <img src="assets/Icon (2).png" class="card-img-top w-25 mx-auto">
           <div class="card-body justify-content-evenly">
             <h5 class="card-title fw-bold fs-2 mt-2 heading-fs grey-heading">Clubs And</h5>
@@ -171,14 +178,15 @@
 
 
     <!-- hero5 Starts from here -->
-    <section class="hero5 grey-bg-color d-flex justify-content-center align-items-center">
-      <div>
+    <section
+      class="hero5 grey-bg-color d-flex flex-column flex-md-row flex-lg-row justify-content-lg-evenly align-items-center gap-5 py-5">
+      <div class="py-3">
         <h1 class="heading-fs fw-bold grey-heading">Helping a local</h1>
         <h1 class="heading-fs fw-bold lime-text">bussiness reinvent itself</h1>
         <p class="fs-5">We reached here with our hard work and dedication</p>
       </div>
 
-      <div class="d-flex flex-column gap-5">
+      <div class="d-flex flex-column gap-5 py-3">
         <div class="d-flex gap-5">
           <div class="d-flex align-items-center">
             <img src="assets/Icon (3).png ">
@@ -195,6 +203,7 @@
             </div>
           </div>
         </div>
+
         <div class="d-flex gap-5">
           <div class="d-flex align-items-center">
             <img src="assets/Icon (4).png">
@@ -238,11 +247,18 @@
 
 
     <!-- hero7 Starts from here -->
-    <section class="d-flex justify-content-center align-items-center grey-bg-color gap-5 py-4">
+    <section
+      class="d-flex flex-column flex-md-row flex-lg-row justify-content-center align-items-center grey-bg-color gap-md-5 py-4 mb-5 mb-md-0 mb-lg-0">
       <img src="assets/image 9.png">
-      <div class="ms-3">
-        <p class="fs-5 light-grey-text">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus<br>tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida<br>enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie<br>mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse<br>eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien,<br>vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum<br>id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
-        <span class="lime-text fs-3 fw-bold">Tim Smith</span>
+      <div class="px-5 px-md-0 px-lg-0 ms-md-3">
+        <p class="fs-md-5 light-grey-text">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem
+          dui, vel rutrum risus<br class="d-none d-md-flex d-lg-flex">tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam
+          in, gravida<br class="d-none d-md-flex d-lg-flex">enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
+          molestie<br class="d-none d-md-flex d-lg-flex">mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales.
+          Suspendisse<br class="d-none d-md-flex d-lg-flex">eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim
+          sapien,<br class="d-none d-md-flex d-lg-flex">vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+          condimentum<br class="d-none d-md-flex d-lg-flex">id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+        <span class="lime-text fs-md-3 fw-bold">Tim Smith</span>
         <p>British Dragon Boat Racing Association</p>
         <div class="d-flex justify-content-between align-items-center">
           <img src="assets/Logo (1).png">
@@ -251,15 +267,17 @@
           <img style="height: 30px;" src="assets/Logo (4).png">
           <img style="height: 30px;" src="assets/Logo (5).png">
           <img style="height: 30px;" src="assets/Logo (6).png">
-          <a href="#" class=" fs-3 fw-bold lime-text">Meet all customers &nbsp;→</a>
+          <a href="#" class="d-none d-md-block d-lg-block fs-md-3 fw-bold lime-text d-none d-md-block d-lg-block">Meet all customers &nbsp;→</a>
         </div>
+        <br class="d-md-none d-lg-none" />
+        <a href="#" class="d-md-none d-lg-none fs-md-3 fw-bold lime-text">Meet all customers &nbsp;→</a>
       </div>
     </section>
     <!-- hero7 Ends from here -->
 
 
     <!-- hero8 Starts from he250-->
-    <section class="m-5 px-4 pb-5">
+    <section class="m-md-5 m-lg-5 px-4 pb-md-5 pb-lg-5">
       <div class="text-center">
         <h2 class=" fw-bold mb-0 heading-fs grey-heading">Caring is the new marketing</h2>
         <p class="fs-4 light-grey-text m-0 mt-3">The Nexcent blog is the best place to read about the latest membership
@@ -314,9 +332,9 @@
 
 
     <!-- hero9 Starts from here -->
-    <section class="hero9 grey-bg-color text-center py-5">
-      <h1 class="big-heading-fs">Pellentesque suscipit</h1>
-      <h1 class="big-heading-fs pb-5">Fringilla libero eu.</h1>
+    <section class="hero9 grey-bg-color text-center py-md-5 py-lg-5">
+      <h1 class="big-heading-fs small-screen-big-heading-fs">Pellentesque suscipit</h1>
+      <h1 class="big-heading-fs small-screen-big-heading-fs pb-5">Fringilla libero eu.</h1>
       <button type="button" class="btn lime-green-bg-color text-white fs-4 py-3 px-5">Get a Demo &nbsp;→</button>
     </section>
     <!-- hero9 Ends from here -->
@@ -326,14 +344,14 @@
 
 
   <!-- footer Starts here -->
-  <footer style="height: 328px;" class="text-white d-flex justify-content-center align-items-center">
+  <footer class="text-white d-flex flex-column flex-md-row flex-lg-row justify-content-center align-items-center">
     <div style="height: 190px;" class="d-flex flex-column justify-content-between">
-      <img style="width: 350px;" src="assets/2nd-Logo.png">
+      <img style="width: 350px;" class="ps-3 ps-md-0 ps-lg-0" src="assets/2nd-Logo.png">
       <div>
-        <p class="mb-0">Copyright © 2020 Nexcent ltd.</p>
-        <p>All rights reserved</p>
+        <p class="mb-0 ps-3 ps-md-0 ps-lg-0">Copyright © 2020 Nexcent ltd.</p>
+        <p class="ps-3 ps-md-0 ps-lg-0">All rights reserved</p>
       </div>
-      <div class="f-social-icons d-flex gap-4">
+      <div class="f-social-icons d-flex gap-4 justify-content-center justify-content-md-start justify-content-lg-start">
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-solid fa-basketball"></i></a>
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -341,31 +359,36 @@
       </div>
     </div>
 
-    <div style="height: 200px;" class="d-flex gap-5">
-      <div style="width: 160px;" class="d-flex flex-column justify-content-between">
-        <h3>Company</h3>
-        <a href="#">Abouts us</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact us</a>
-        <a href="#">Pricing</a>
-        <a href="#">Testimonals</a>
+    <div style="height: 200px;" class="d-flex flex-column flex-md-row flex-lg-row gap-5">
+      <div class="d-flex gap-md-5 gap-lg-5">
+        <div style="width: 160px;" class="d-flex flex-column justify-content-between">
+          <h3>Company</h3>
+          <a href="#">Abouts us</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact us</a>
+          <a href="#">Pricing</a>
+          <a href="#">Testimonals</a>
+        </div>
+
+        <div style="width: 160px;" class="d-flex flex-column justify-content-between">
+          <h3>Support</h3>
+          <a href="#">Help center</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Legal</a>
+          <a href="#">Privacy</a>
+          <a href="#">Status</a>
+        </div>
       </div>
 
-      <div style="width: 160px;" class="d-flex flex-column justify-content-between">
-        <h3>Support</h3>
-        <a href="#">Help center</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Legal</a>
-        <a href="#">Privacy</a>
-        <a href="#">Status</a>
-      </div>
-
-      <div style="width: 300px;" class="d-flex flex-column">
-        <h3>Stay up to date</h3>
-        <div class="input-group">
-          <input type="text" class="form-control py-3 rounded-start-4" placeholder="Your email address" aria-label="Recipient’s username"
-            aria-describedby="basic-addon2">
-          <span class="input-group-text rounded-end-4" id="basic-addon2"><i class="fa-solid fa-paper-plane"></i></span>
+      <div>
+        <div style="width: 300px;" class="d-flex flex-column">
+          <h3>Stay up to date</h3>
+          <div class="input-group">
+            <input type="text" class="form-control py-3 rounded-start-4" placeholder="Your email address"
+              aria-label="Recipient’s username" aria-describedby="basic-addon2">
+            <span class="input-group-text rounded-end-4" id="basic-addon2"><i
+                class="fa-solid fa-paper-plane"></i></span>
+          </div>
         </div>
       </div>
     </div>
